@@ -1,12 +1,14 @@
 # RuralLens model checkpoints
 
-Three separate experimental model bundles from the RuralLens 2026-10-22 snapshot. Each folder contains one PyTorch checkpoint (`.pt`), its comparison metadata JSON, and a README with limitations and licensing cautions.
+This is an earlier combined snapshot of three experimental RuralLens PyTorch checkpoints and their comparison metadata. For a model-specific download and a user guide with a PyTorch loading example, use one of the dedicated repositories below.
 
 ## Folders
 
-- [`animal-doctor/`](animal-doctor/) — Animal/livestock checkpoint (11 classes).
-- [`crop-doctor/`](crop-doctor/) — Crop/plant checkpoint (14 classes).
-- [`human-skin-doctor/`](human-skin-doctor/) — Human visible-skin checkpoint (16 classes).
+## Separate model repositories
+
+- [Animal / livestock model](https://github.com/MR-CODESPIKE/rurallens-animal-doctor)
+- [Crop / plant model](https://github.com/MR-CODESPIKE/rurallens-crop-doctor)
+- [Human visible-skin model](https://github.com/MR-CODESPIKE/rurallens-human-skin-doctor)
 
 ## Important limitations and rights
 
